@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Inicio</title>
+  <%-include ('partials/head.ejs')%>
+</head>
+
+<body>
+
+  <!-- Nav -->
+  <%-include ('partials/navbar.ejs')%>
+
+    <!-- Botones de llamada -->
+    <header class="titulo-llamadas pt-7">
+      <div class="overlay"></div>
+      <div class="container-fluid pb-5">
+        <div class="row">
+          <div class="contenedor-celular col-12 col-md-4">
+            <img src="/img/Iphone-911.png" alt="Tel">
+          </div>
+          <div class="contenedor-informacion col-12 col-md-8">
+            <h1 class="h1 fw-bold text-primary">Solo basta hacer un click para ayudar</h1>
+            <p class="">Generalmente no necesitas tener saldo en tu teléfono porque estas
+              llamadas están diseñadas para priorizarse sobre otras redes y no requieren autenticación o acceso a
+              servicios
+              normales de telefonía móvil. </p>
+          </div>
+        </div>
+      </div>
+
+      <svg class="svg1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+        preserveAspectRatio="none">
+        <path
+          d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+          class="shape-fill" style="fill:#fff"></path>
+      </svg>
+
+    </header>
+
+
+    <!-- Tipos de emergencia -->
+    <section id="llamar" class="tipos-emergencia ">
+      <div class="container">
+        <div class="titulo-emergencia">
+          <h2 class="h2 fw-bold text-primary pb-4">Llamada rapida</h2>
+        </div>
+        <div class="row g-3">
+          <div class="col-12 col-md-6 col-xl-3 card-numbers">
+            <div class="card shadow-lg border-0" style="width: 18rem;">
+              <img src="/img/icons/doc.png" class="card-img-top lazyload" alt="...">
+              <!-- <img src="/img/icons/hospital.png" class="card-img-top" alt="..."> -->
+
+              <div class="card-body">
+                <h5 class="card-title text-primary">Medicas</h5>
+                <p class="card-text">En caso de...</p>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Accidente de coche con heridos</li>
+                  <li class="list-group-item">Electrocutado</li>
+                  <li class="list-group-item">Infarto</li>
+                  <li class="list-group-item">Sobredosis</li>
+                  <li class="list-group-item">Trabajo de Parto</li>
+                  <li class="list-group-item">Ahogado</li>
+                </ul>
+
+                <a href="tel:911" class="btn btn-secondary">Llamar</a>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-xl-3 card-numbers">
+            <div class="card shadow-lg border-0" style="width: 18rem;">
+              <img src="/img/icons/bombero.png" class="card-img-top" alt="...">
+              <!-- <img src="/img/icons/firefighter.png" class="card-img-top" alt="..."> -->
+              <div class="card-body">
+                <h5 class="card-title text-primary">Protección Civil</h5>
+                <p class="card-text">En caso de...</p>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Incendio</li>
+                  <li class="list-group-item">Explosión</li>
+                  <li class="list-group-item">Derrumbe</li>
+                  <li class="list-group-item">Erupción Volcánica</li>
+                  <li class="list-group-item">Inundación</li>
+                  <li class="list-group-item">Enjambre de abejas</li>
+                </ul>
+                <a href="tel:911" class="btn btn-secondary">Llamar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-xl-3 card-numbers">
+            <div class="card shadow-lg border-0" style="width: 18rem;">
+              <img src="/img/icons/police.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-primary">Seguridad</h5>
+                <p class="card-text">En caso de...</p>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Disparo de Arma</li>
+                  <li class="list-group-item">Violencia Familiar</li>
+                  <li class="list-group-item">Abuso Sexual</li>
+                  <li class="list-group-item">Homicidio</li>
+                  <li class="list-group-item">Allanamiento de morada</li>
+                  <li class="list-group-item">Implicación de Inseguridad</li>
+                </ul>
+                <a href="tel:911" class="btn btn-secondary">Llamar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-xl-3 card-numbers">
+            <div class="card shadow-lg border-0" style="width: 18rem;">
+              <img src="/img/icons/service-public.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-primary">Servicios Públicos</h5>
+                <p class="card-text">En caso de...</p>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Asistencia Social</li>
+                  <li class="list-group-item">Infraestructura</li>
+                  <li class="list-group-item">Alcantarillado y Drenaje</li>
+                  <li class="list-group-item">Árbol Caído o por Caer</li>
+                  <li class="list-group-item">Cables colgando</li>
+
+                </ul>
+                <a href="tel:911" class="btn btn-secondary">Llamar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Numeros Locales -->
+    <section id="numeros-locales" class="numeros-locales mt-7">
+      <div class="overlay"></div>
+      <div class="custom-shape-divider-top-1724995457">
+        <svg class="svg1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+          preserveAspectRatio="none">
+          <path
+            d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+            opacity=".25" class="shape-fill" style="fill: #fff"></path>
+          <path
+            d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+            opacity=".5" class="shape-fill" style="fill: #fff"></path>
+          <path
+            d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+            class="shape-fill" style="fill: #fff"></path>
+        </svg>
+      </div>
+
+      <div class="container mb-7">
+        <h2 class="h2 text-primary fw-bold">Numeros Locales</h2>
+        <p class="text-light">Ponemos a tu disposición los números de las estaciones de emergencia más cercanas,
+          garantizando que siempre tengas acceso rápido y efectivo a los servicios que necesitas en caso de urgencia.
+        </p>
+
+        <div class="row g-5 justify-content-center">
+          <div class="col-12 col-md-6 col-xl-3 card-numbers">
+            <div class="card rounded shadow-lg" style="width: 18rem;">
+              <div class="ratio ratio-16x9">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2524.6233001942023!2d-106.47341819165624!3d31.74876790110243!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e759165380aec5%3A0xa691622d6a38f275!2sEstaci%C3%B3n%20de%20Bomberos%20No.%201!5e0!3m2!1ses!2smx!4v1725032168058!5m2!1ses!2smx"
+                  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-secondary">Central de Bomberos</h5>
+                <a href="tel:6567370896" class="btn btn-secondary">Llamar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-xl-3 card-numbers">
+            <div class="card rounded shadow-lg" style="width: 18rem;">
+              <div class="ratio ratio-16x9">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3393.0753398875777!2d-106.44971872461917!3d31.74114447411374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e7595a2fef98fb%3A0x29590eaa60ca2feb!2sC.%20Henry%20Dunant%204324%2C%20Zona%20Pronaf%20Condominio%20La%20Plata%2C%2032315%20Ju%C3%A1rez%2C%20Chih.!5e0!3m2!1ses!2smx!4v1724996787053!5m2!1ses!2smx"
+                  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-secondary">Cruz Roja</h5>
+                <a href="tel:6566165089" class="btn btn-secondary">Llamar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3 card-numbers">
+            <div class="card rounded shadow-lg" style="width: 18rem;">
+              <div class="ratio ratio-16x9">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1697.0939233695333!2d-106.46020370255408!3d31.710763299999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e75eb958e0a4c5%3A0x44394ea59375e2ae!2sS.S.P.M.%20Distrito%20Universidad!5e0!3m2!1ses!2smx!4v1724999297716!5m2!1ses!2smx"
+                  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-secondary">Policia Municipal</h5>
+                <a href="tel:6566165089" class="btn btn-secondary">Llamar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3 card-numbers">
+            <div class="card rounded shadow-lg" style="width: 18rem;">
+              <div class="ratio ratio-16x9">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13571.421376518723!2d-106.4374679128418!3d31.747149200000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e75becbfac42ad%3A0xf1c7f35fabe80481!2sJMAS%20NORMATIVIDAD!5e0!3m2!1ses!2smx!4v1724999394219!5m2!1ses!2smx"
+                  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-secondary">Jmas</h5>
+                <a href="tel:6566165089" class="btn btn-secondary">Llamar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3 card-numbers">
+            <div class="card rounded shadow-lg" style="width: 18rem;">
+              <div class="ratio ratio-16x9">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d937.75176336166!2d-106.42332540139148!3d31.70787417194015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e75c3e77ddda33%3A0xf86fc54d859f0344!2sComision%20Federal%20de%20Electricidad%20Transmisi%C3%B3n%20y%20Transformaci%C3%B3n!5e0!3m2!1ses!2smx!4v1725000148111!5m2!1ses!2smx"
+                  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-secondary">CFE</h5>
+                <a href="tel:6566165089" class="btn btn-secondary">Llamar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <svg class="svg3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#fff" fill-opacity="1"
+          d="M0,320L40,282.7C80,245,160,171,240,149.3C320,128,400,160,480,192C560,224,640,256,720,272C800,288,880,288,960,293.3C1040,299,1120,309,1200,272C1280,235,1360,149,1400,106.7L1440,64L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
+        </path>
+      </svg>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+
+      <!-- <svg class="svg1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#fff" fill-opacity="1" d="M0,288L48,288C96,288,192,288,288,256C384,224,480,160,576,133.3C672,107,768,117,864,138.7C960,160,1056,192,1152,208C1248,224,1344,224,1392,224L1440,224L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
+      </svg>  -->
+      <div class="container">
+        <p class=" text-primary fw-bold">Fletes México Carga Express © 2024 / TODOS LOS DERECHOS RESERVADOS</p>
+      </div>
+
+
+    </footer>
+    <%-include ('partials/footer.ejs')%>
+</body>
+
+</html>
