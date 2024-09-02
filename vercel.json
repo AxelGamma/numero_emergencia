@@ -1,9 +1,6 @@
 {
-   "version": 2,
-   "rewrites": [
-      {
-         "source": "index.js",
-         "destination": "/"
-      }
+   "builds": [
+     { "src": "public/**/*", "use": "@vercel/static" }
    ]
-}
+ }
+ 
