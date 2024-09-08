@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon ./src/index.js",
     "sass": "sass ./public/scss/main.scss:./public/css/style.css",
-    "start": "node src/index.js",
+    "start": "node ./src/index.js",
     "build": "npm run sass"
   },
   "keywords": [],
