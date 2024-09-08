@@ -5,8 +5,5 @@
       "src": "/(.*)",
       "dest": "src/index.js"
     }
-  ],
-  "static": {
-    "source": "public"
-  }
+  ]
 }
