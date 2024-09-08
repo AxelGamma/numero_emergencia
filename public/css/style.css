@@ -14595,6 +14595,13 @@ textarea.form-control-lg {
   }
 }
 
+/* Centrando cards al centro */
+.numeros-locales .card-numbers,
+.tipos-emergencia .card-numbers {
+  display: flex;
+  justify-content: center;
+}
+
 .titulo-llamadas {
   background-image: url("/img/fondo-walp.jpg");
   background-position: center;
@@ -14726,6 +14733,9 @@ textarea.form-control-lg {
   position: relative;
   overflow: hidden;
   padding: 4rem 0;
+}
+.numeros-locales .location-maps {
+  justify-content: center;
 }
 .numeros-locales .overlay {
   position: absolute;

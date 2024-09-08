@@ -52,3 +52,12 @@
       }
    }
 }
+
+/* Centrando cards al centro */
+.numeros-locales,
+.tipos-emergencia {
+   .card-numbers {
+      display: flex;
+      justify-content: center;
+   }
+}
