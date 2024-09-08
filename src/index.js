@@ -23,8 +23,8 @@ app.set('views', path.join(__dirname,'views'))
 app.use(express.static(path.join(__dirname, '../public')));
 
 //con static bootstrap
-app.use('/bootstrap', express.static('node_modules/bootstrap/dist'))
-app.use('/lazysizes', express.static('node_modules/lazysizes/'))
+app.use('/bootstrap', express.static(path.join(__dirname,'node_modules/bootstrap/dist')))
+app.use('/lazysizes', express.static(path.join(__dirname,'node_modules/lazysizes/')))
 
 
 app.use('/', router);
